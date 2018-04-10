@@ -1,0 +1,11 @@
+{
+  "/api": {
+    "target": "https://dev51327.service-now.com",
+    "logLevel": "info",
+    "secure": false,
+    "headers": {
+      "Host": "dev51327.service-now.com",
+      "authorization": "Basic YWRtaW46R2FrYjE5ODcxMTE5IQ=="
+    }
+  }
+}

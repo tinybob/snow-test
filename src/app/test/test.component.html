@@ -1,0 +1,13 @@
+<div *ngIf="!records">Loading Records...</div>   
+
+<div *ngIf="records">
+
+    <table> 
+        <tr><th>Name</th><th>Created By</th><th>Created Date</th></tr>
+        <tr *ngFor="let record of records">
+            <td>{{record.name}}</td>
+            <td>{{record.sys_created_by}}</td>
+            <td>{{record.sys_created_on}}</td>
+        </tr>
+    </table>
+</div>
